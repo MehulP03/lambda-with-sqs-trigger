@@ -1,0 +1,7 @@
+function_name     = "my-lambda-function"
+lambda_handler    = "lambda_function.handler"
+lambda_runtime    = "python3.8"
+lambda_source_dir = "lambda_source_code"
+sqs_queue_name    = "my-sqs-queue"
+sqs_dlq_name      = "my-sqs-dlq"
+file_name         = "test.py"
